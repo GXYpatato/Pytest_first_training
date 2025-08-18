@@ -1,15 +1,6 @@
 from pytest_training.utils.read_data import base_data
 from pytest_training.testcase.meike_testcase.conftest import get_user_id, get_shop_cart
 
-# shopcart=base_data.read_data()['shop_carts']['goods']
-# print(shopcart)
-
-# id = get_user_id(15959996163)
-# # print(id)
-#
-# nums=get_shop_cart(id,4)
-# print(nums)
-
 def test_login_fixture(login_fixture):
     session=login_fixture
     assert 'Authorization' in session.headers

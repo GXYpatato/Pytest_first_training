@@ -1,5 +1,5 @@
-from pytest_excise.core.rest_clinet import RestClient
-from pytest_excise.utils.read_data import base_data
+from pytest_training.core.rest_clinet import RestClient
+from pytest_training.utils.read_data import base_data
 
 
 class Api(RestClient):
@@ -15,6 +15,12 @@ class Api(RestClient):
 
     def register_mobile(self,**kwargs):
         return self.post("/users/",**kwargs)
+
+    def login(self,**kwargs):
+        return self.post("/login/",**kwargs)
+
+    def shopping_cart(self,**kwargs):
+        return self.post("/shopcarts/",**kwargs)
 
 api_util = Api()
 

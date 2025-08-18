@@ -1,7 +1,7 @@
 import json
 
-from pytest_excise.core.ResultBase import ResultResponse
-from pytest_excise.utils.log_util import logger
+from pytest_training.core.ResultBase import ResultResponse
+from pytest_training.utils.log_util import logger
 
 
 def process_response(response):

@@ -23,4 +23,11 @@ Reviewer_url:
 
 test_register: {"mobile":"15959996163"}
 
+test_login: {username: "15959996163", password: "123456"}
+
+token: {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDM4NzEzODgsInVzZXJuYW1lIjoiMTU5NTk5OTYxNjMiLCJleHAiOjE3NTYxNzc0MzksImVtYWlsIjpudWxsfQ.Sn1gCskx2aTijdnr5hCR5bgX6582Q1-ND3N0VNulTHc"}
+
+shop_carts: {goods: "5", nums: 2}
+
+
 

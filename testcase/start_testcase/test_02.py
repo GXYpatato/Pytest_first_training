@@ -1,7 +1,7 @@
-from pytest_excise.utils.read_data import base_data
+from pytest_training.utils.read_data import base_data
 import requests
 import allure
-from pytest_excise.utils.log_util import logger
+from pytest_training.utils.log_util import logger
 
 # #paramsetrize+yaml多参数
 # @pytest.mark.parametrize("username,pwd", data['userinfo'])

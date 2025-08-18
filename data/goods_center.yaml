@@ -1,0 +1,13 @@
+get_banner:
+  # 接口的基本信息
+  - request_info:
+      case_title: 登录接口
+      url: /banners/
+      method: GET
+      headers:
+        Content-Type: application/json
+    case_info:
+      # 接口请求参数，params，json，data
+      - params:
+        validate:
+          - length: [ '$..id', 16 ]

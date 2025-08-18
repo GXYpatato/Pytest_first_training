@@ -1,7 +1,7 @@
 import pymysql
 
-from pytest_excise.utils.log_util import logger
-from pytest_excise.utils.read_data import base_data
+from pytest_training.utils.log_util import logger
+from pytest_training.utils.read_data import base_data
 
 data = base_data.read_ini()['mysql']
 

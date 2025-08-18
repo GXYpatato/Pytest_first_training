@@ -1,7 +1,7 @@
 import allure
-from pytest_excise.api.user_api import send_code, register
-from pytest_excise.testcase.meike_testcase.conftest import get_code, delete_user, delete_code
-from pytest_excise.utils.read_data import base_data
+from pytest_training.api.user_api import send_code, register, login
+from pytest_training.testcase.meike_testcase.conftest import get_code, delete_user, delete_code
+from pytest_training.utils.read_data import base_data
 
 
 class TestUser:
@@ -9,7 +9,7 @@ class TestUser:
         # 发送验证码
         json_data = base_data.read_data()['test_register']
 
-        #删除验证码，规避提示：距离上次发送还没超过1分钟
+        # 删除验证码，规避提示：距离上次发送还没超过1分钟
         delete_code(json_data['mobile'])
         result = send_code(json_data)
         assert result.success is True
@@ -22,8 +22,11 @@ class TestUser:
         register_result = register(mobile, code)
         assert register_result.success is True
 
-        #删除用户
-        #delete_user(mobile)
+        # 删除用户
+        # delete_user(mobile)
+        delete_user('15959996163')
 
     def test_login(self):
-        pass
+        login_result = login()
+        assert login_result.success is True
+
