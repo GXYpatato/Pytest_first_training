@@ -1,0 +1,179 @@
+[2025-08-10 08:27:08,661][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 08:27:08,661][rest_clinet.py 48][INFO]: 接口请求的方法>>>GET
+[2025-08-10 08:27:08,661][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 08:27:19,788][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-10 08:27:19,789][process_utils.py 14][INFO]: 接口的返回内容>>>：{"detail": "方法 “GET” 不被允许。"}
+[2025-08-10 08:28:47,351][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 08:28:47,351][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 08:28:47,352][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 08:28:47,431][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15959996163"}
+[2025-08-10 09:33:47,105][mysql_util.py 30][INFO]: 执行sql:select code from user_vertifycode where mobile = 15959996163
+[2025-08-10 09:34:19,454][mysql_util.py 30][INFO]: 执行sql:select code from user_verifycode where mobile = 15959996163
+[2025-08-10 09:34:32,661][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = 15959996163
+[2025-08-10 09:35:10,369][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = 15959996163
+[2025-08-10 09:35:11,795][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = 15959996163
+[2025-08-10 09:35:36,845][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = 15959996163 oreder by id sec limit 1
+[2025-08-10 09:36:17,796][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = 15959996163 limit 1
+[2025-08-10 09:36:42,142][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = 15959996163 limit 1
+[2025-08-10 09:36:48,786][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = 15959996163 limit 1
+[2025-08-10 09:37:29,816][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = 15959996163 order by id desc limit 1
+[2025-08-10 10:13:35,453][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 10:13:35,457][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 10:13:35,457][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 10:13:46,602][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15959996163"}
+[2025-08-10 10:13:46,602][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = 15959996163 order by id desc limit 1
+[2025-08-10 10:13:46,627][conftest.py 8][INFO]: sql执行结果：{'code': '1501'}
+[2025-08-10 10:29:01,343][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 10:29:01,343][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 10:29:01,344][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 10:29:12,474][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-10 10:29:12,476][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": ["用户已经存在"]}
+[2025-08-10 10:32:41,126][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 10:32:41,127][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 10:32:41,127][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 10:32:41,220][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-10 10:32:41,220][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": ["用户已经存在"]}
+[2025-08-10 10:34:34,273][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 10:34:34,273][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 10:34:34,273][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996164"
+}
+[2025-08-10 10:34:34,447][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15959996164"}
+[2025-08-10 10:34:34,447][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = 15959996164 order by id desc limit 1
+[2025-08-10 10:34:34,472][conftest.py 8][INFO]: sql执行结果：{'code': '8795'}
+[2025-08-10 10:54:52,867][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 10:54:52,868][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 10:54:52,868][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 10:55:04,041][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15959996163"}
+[2025-08-10 10:55:04,041][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = '15959996163' order by id desc limit 1;
+[2025-08-10 10:55:04,072][conftest.py 8][INFO]: sql执行结果：{'code': '8131'}
+[2025-08-10 11:08:48,603][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 11:08:48,604][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 11:08:48,604][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 11:08:59,765][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15959996163"}
+[2025-08-10 11:08:59,765][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = '15959996163' order by id desc limit 1;
+[2025-08-10 11:08:59,794][conftest.py 8][INFO]: sql执行结果：{'code': '0091'}
+[2025-08-10 11:09:31,208][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 11:09:31,208][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 11:09:31,208][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 11:09:42,347][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-10 11:09:42,348][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": ["距离上次发送未超过1分钟"]}
+[2025-08-10 11:12:22,535][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 11:12:22,535][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 11:12:22,537][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 11:12:22,614][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15959996163"}
+[2025-08-10 11:12:22,615][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = '15959996163' order by id desc limit 1;
+[2025-08-10 11:12:22,640][conftest.py 8][INFO]: sql执行结果：{'code': '2075'}
+[2025-08-10 11:12:22,642][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/user/
+[2025-08-10 11:12:22,642][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 11:12:22,642][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "code": "15959996163",
+  "password": "123456",
+  "username": "2075"
+}
+[2025-08-10 11:12:22,703][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-10 11:13:59,944][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 11:13:59,944][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 11:13:59,944][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 11:14:00,024][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15959996163"}
+[2025-08-10 11:14:00,024][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = '15959996163' order by id desc limit 1;
+[2025-08-10 11:14:00,060][conftest.py 8][INFO]: sql执行结果：{'code': '0975'}
+[2025-08-10 11:14:00,062][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/user/
+[2025-08-10 11:14:00,062][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 11:14:00,062][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "code": "0975",
+  "password": "123456",
+  "username": "15959996163"
+}
+[2025-08-10 11:14:00,090][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-10 11:26:32,403][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 11:26:32,405][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 11:26:32,405][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 11:26:43,567][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15959996163"}
+[2025-08-10 11:26:43,568][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = '15959996163' order by id desc limit 1;
+[2025-08-10 11:26:43,590][conftest.py 8][INFO]: sql执行结果：{'code': '3313'}
+[2025-08-10 11:26:43,591][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/user/
+[2025-08-10 11:26:43,591][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 11:26:43,591][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "code": "3313",
+  "password": "123456",
+  "username": "15959996163"
+}
+[2025-08-10 11:26:43,621][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-10 11:28:43,259][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 11:28:43,259][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 11:28:43,260][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 11:28:43,343][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15959996163"}
+[2025-08-10 11:28:43,344][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = '15959996163' order by id desc limit 1;
+[2025-08-10 11:28:43,376][conftest.py 8][INFO]: sql执行结果：{'code': '4594'}
+[2025-08-10 11:28:43,378][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/users/
+[2025-08-10 11:28:43,378][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 11:28:43,378][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "code": "4594",
+  "password": "123456",
+  "username": "15959996163"
+}
+[2025-08-10 11:28:43,506][process_utils.py 14][INFO]: 接口的返回内容>>>：{"username": "15959996163", "mobile": "15959996163", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDM4NzY4MCwidXNlcm5hbWUiOiIxNTk1OTk5NjE2MyIsImV4cCI6MTc1NTQwMTMyMCwiZW1haWwiOm51bGx9.YvIu1ZZKo1YE5445j4XXhl8u7aIiDg_UevLiulFfaoI", "name": "15959996163"}
+[2025-08-10 11:28:43,506][mysql_util.py 44][INFO]: 执行sql:delete from users_userprofile where mobile='15959996163' ;
+[2025-08-10 11:28:43,592][conftest.py 15][INFO]: sql执行结果：None
+[2025-08-10 16:25:33,471][mysql_util.py 44][INFO]: 执行sql:delete from users_verifycode where mobile = '15959996163' ;
+[2025-08-10 16:25:33,559][conftest.py 21][INFO]: sql执行结果：None
+[2025-08-10 16:25:33,559][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-10 16:25:33,559][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 16:25:33,559][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-10 16:25:33,666][process_utils.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15959996163"}
+[2025-08-10 16:25:33,666][mysql_util.py 30][INFO]: 执行sql:select code from users_verifycode where mobile = '15959996163' order by id desc limit 1;
+[2025-08-10 16:25:33,708][conftest.py 8][INFO]: sql执行结果：{'code': '2922'}
+[2025-08-10 16:25:33,708][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/users/
+[2025-08-10 16:25:33,708][rest_clinet.py 48][INFO]: 接口请求的方法>>>POST
+[2025-08-10 16:25:33,709][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "code": "2922",
+  "password": "123456",
+  "username": "15959996163"
+}
+[2025-08-10 16:25:33,841][process_utils.py 14][INFO]: 接口的返回内容>>>：{"username": "15959996163", "mobile": "15959996163", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDM4NzY4NiwidXNlcm5hbWUiOiIxNTk1OTk5NjE2MyIsImV4cCI6MTc1NTQxOTEzMCwiZW1haWwiOm51bGx9.8WtV5AoxW1EC5KH5VJrcsWCfideBMcgSvYh7RRnUrcE", "name": "15959996163"}

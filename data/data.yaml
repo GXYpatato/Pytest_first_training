@@ -1,0 +1,26 @@
+userinfo:
+  - - gxy
+    - gxy040720
+  - - xiaomei
+    - '654321'
+  - - xiaoming
+    - '123456'
+
+
+drink:
+  - tea
+  - coffee
+  - cola
+  - white water
+  - milk
+
+Meike_url:
+  base_url: http://admin.5istudy.online
+#元素是键值对，：后面记得空格
+
+Reviewer_url:
+  base_url: http://127.0.0.1:8080
+
+test_register: {"mobile":"15959996163"}
+
+

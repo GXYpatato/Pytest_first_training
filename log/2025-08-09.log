@@ -1,0 +1,51 @@
+[2025-08-09 17:55:16,718][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code//code
+[2025-08-09 17:55:16,719][rest_clinet.py 48][INFO]: 接口请求的方法>>>GET
+[2025-08-09 17:55:16,719][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile:15959996163": null
+}
+[2025-08-09 17:55:16,844][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-09 17:56:29,583][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code//code
+[2025-08-09 17:56:29,584][rest_clinet.py 48][INFO]: 接口请求的方法>>>GET
+[2025-08-09 17:56:29,584][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-09 17:56:29,649][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-09 17:59:23,694][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/code
+[2025-08-09 17:59:23,694][rest_clinet.py 48][INFO]: 接口请求的方法>>>GET
+[2025-08-09 17:59:23,694][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-09 17:59:23,750][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-09 18:00:04,546][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code
+[2025-08-09 18:00:04,546][rest_clinet.py 48][INFO]: 接口请求的方法>>>GET
+[2025-08-09 18:00:04,546][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-09 18:00:04,635][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-09 18:00:04,635][process_utils.py 14][INFO]: 接口的返回内容>>>：{"detail": "方法 “GET” 不被允许。"}
+[2025-08-09 18:01:06,424][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://meikefresh.5istudy.online/code
+[2025-08-09 18:01:06,424][rest_clinet.py 48][INFO]: 接口请求的方法>>>GET
+[2025-08-09 18:01:06,425][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-09 18:04:46,387][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-09 18:04:46,388][rest_clinet.py 48][INFO]: 接口请求的方法>>>GET
+[2025-08-09 18:04:46,388][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-09 18:04:46,455][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-09 18:04:46,456][process_utils.py 14][INFO]: 接口的返回内容>>>：{"detail": "方法 “GET” 不被允许。"}
+[2025-08-09 18:05:23,681][rest_clinet.py 47][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2025-08-09 18:05:23,682][rest_clinet.py 48][INFO]: 接口请求的方法>>>GET
+[2025-08-09 18:05:23,682][rest_clinet.py 52][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "15959996163"
+}
+[2025-08-09 18:05:34,817][process_utils.py 13][INFO]: 接口状态码不是2开头，请检查
+[2025-08-09 18:05:34,818][process_utils.py 14][INFO]: 接口的返回内容>>>：{"detail": "方法 “GET” 不被允许。"}
